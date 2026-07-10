@@ -1,9 +1,112 @@
 *{
     padding: 0;
     margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+    font-family: "Open Sans", sans-serif;
 }
 
 /* Cummon style */
 .container{
     max-width: 1200px;
+    margin: auto;
+}
+.flex-item{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: aliceblue;
+    padding: 10px 25px;
+}
+.italic-style{
+    font-style: italic;
+}
+
+/* header section */
+.logo img{
+    max-width: 110px;
+}
+.menubar{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+.menu-items ul{
+    list-style: none;
+}
+.menu-items a{
+    color: #141414;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+/* Banner Section */
+.banner{
+    background-image: url(./assets/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+}
+.banner h2{
+    color: #fff;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.banner p{
+    color: #fff;
+    max-width: 500px;
+    margin: auto;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.banner button{
+    margin-top: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 15px 40px;
+}
+
+/* Speaker Section */
+.speaker{
+    padding: 70px 0px;
+}
+.speaker h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+}
+.speaker-item{
+    margin: 15px 15px;
+    display: inline-block;
+    object-fit: cover;
+    box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
+    border-radius: 5px;
+}
+.speaker-item img{
+    max-width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.speakers-info{
+    padding: 15px 15px;
+}
+.speakers-info a{
+    color:#2563EB;
+}
+.speakers-info p{
+    font-size: 15px;;
+    color: #575757;
+    padding: 10px 0px;
 }
