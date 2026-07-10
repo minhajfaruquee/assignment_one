@@ -87,9 +87,9 @@ button{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: space-between;
+    gap: 30px;
 }
 .speaker-item{
-    margin: 15px 15px;
     display: inline-block;
     object-fit: cover;
     box-shadow: 5px 5px 15px 0px rgba(0, 0, 0, 0.20);
@@ -110,3 +110,86 @@ button{
     color: #575757;
     padding: 10px 0px;
 }
+
+/* pricing */
+.pricing{
+    margin-bottom: 100px;
+}
+.pricing-head h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.pricing-head p{
+    font-size: 15px;;
+    color: #575757;
+    text-align: center;
+}
+.pricing-area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 50px;
+}
+.pricing-item{
+    background-color: #ffffff;
+    padding: 35px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 0px rgba(49, 49, 49, 0.2);
+}
+.pricing-item h2{
+    font-size: 45px;
+}
+.pricing-item h5{
+    color: #888888;
+    text-transform: uppercase;
+}
+.pricing-item h6{
+    border-bottom: 0.5px solid #d4d4d6;
+    padding-bottom: 20px;
+    color: #888888;
+    font-weight: 500;
+}
+.pricing-card ul{
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.pricing-card li{
+    color: #333;
+    padding: 5px 0px;
+}
+.pricing-button a{
+    color: #2563EB;
+    font-weight: 600;
+}
+.pricing-button{
+    text-align: center;
+    border: 1px solid #2563EB;
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin-top: 30px;  
+}
+.highlight{
+    background-color: #333333;
+}
+.highlight h2{
+    color: #fff;
+}
+.highlight h5{
+    color: #93C5FD;
+}
+.highlight li{
+    color: #fff;
+}
+.highlight li::marker {
+  color: #2563EB; /* Changes only the bullet color */
+}
+.highlight-button{
+    border: 1px solid #2563EB;
+    background-color: #2563EB;
+}
+.highlight-button a{
+    color: #fff;
+}
+
