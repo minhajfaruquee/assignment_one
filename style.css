@@ -193,6 +193,34 @@ button{
     color: #fff;
 }
 
+/* end of pricing */
+
+/* sponsor section */
+.sponsor{
+    background-image: url(./assets/sponsor-bg.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 100px 0px;
+}
+.sponsor-head h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.sponsor-head p{
+    font-size: 15px;;
+    color: #575757;
+    text-align: center;
+    margin-top: 10px;
+}
+.sponsors-item{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
 /* Footer section */
 footer{
     background-color: #0D1B2A;
@@ -210,5 +238,6 @@ footer{
     color: #fff;
     padding: 0px 10px; 
 }
+
 
 
