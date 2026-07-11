@@ -193,3 +193,22 @@ button{
     color: #fff;
 }
 
+/* Footer section */
+footer{
+    background-color: #0D1B2A;
+    padding: 30px 0px;
+    color: #fff;
+}
+.footer, .footer-right ul{    
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-weight: 200;
+    font-size: 14px;
+}
+.footer-right a{
+    color: #fff;
+    padding: 0px 10px; 
+}
+
+
